@@ -41,6 +41,7 @@
     <module>cli</module>
     <module>core</module>
     <module>examples</module>
+    <module>services/accumulo</module>
     <module>services/cassandra</module>
     <module>services/cdh</module>
     <module>services/cdh-oldtests</module>
@@ -57,9 +58,11 @@
     <module>services/pig</module>
     <module>services/solr</module>
     <module>services/kerberos</module>
+    <module>services/accumulo</module>
   </modules>
 
   <properties>
+    <accumulo.version>1.4.2</accumulo.version>
     <commons.codec.version>1.6</commons.codec.version>
     <commons.configuration.version>1.7</commons.configuration.version>
     <commons.compress.version>1.4</commons.compress.version>

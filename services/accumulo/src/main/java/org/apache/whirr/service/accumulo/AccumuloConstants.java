@@ -15,21 +15,20 @@
  */
 package org.apache.whirr.service.accumulo;
 
-
 public class AccumuloConstants {
-      public static final String KEY_TARBALL_URL = "whirr.accumulo.tarball.url";
 
-  public static final String FUNCTION_INSTALL = "install_accumulo";
-  public static final String FUNCTION_CONFIGURE = "configure_accumulo";
+    public static final String KEY_TARBALL_URL = "whirr.accumulo.tarball.url";
+    public static final String FUNCTION_INSTALL = "install_accumulo";
+    public static final String FUNCTION_CONFIGURE = "configure_accumulo";
+    public static final String PROP_ACCUMULO_ZOOKEEPER_QUORUM = "accumulo.zookeeper.quorum";
+    public static final String PROP_ACCUMULO_ZOOKEEPER_CLIENTPORT = "accumulo.zookeeper.property.clientPort";
+    public static final String FILE_ACCUMULO_SITE_XML = "accumulo-site.xml";
+    public static final String FILE_ACCUMULO_DEFAULT_PROPERTIES = "whirr-accumulo-default.properties";
+    //Install and configuration script params
+    public static final String PARAM_TARBALL_URL = "-u";
+    public static final String PARAM_QUORUM = "-q";
+    public static final String PARAM_MASTER = "-m";
 
- 
-
-  public static final String PROP_ACCUMULO_ZOOKEEPER_QUORUM = "hbase.zookeeper.quorum";
-  public static final String PROP_ACCUMULO_ZOOKEEPER_CLIENTPORT = "hbase.zookeeper.property.clientPort";
-
-  public static final String FILE_ACCUMULO_SITE_XML = "accumulo-site.xml";
-  public static final String FILE_ACCUMULO_DEFAULT_PROPERTIES = "whirr-accumulo-default.properties";
-  
-  private AccumuloConstants(){}
-  
+    private AccumuloConstants() {
+    }
 }

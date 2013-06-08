@@ -39,6 +39,8 @@ import org.slf4j.LoggerFactory;
 public class AccumuloMasterClusterActionHandler extends AccumuloClusterActionHandler {
 
     public static final String ROLE = "accumulo-master";
+    //Default Monitor Port
+    public static final int PORT = 50065;
     private static final Logger LOG =
             LoggerFactory.getLogger(AccumuloMasterClusterActionHandler.class);
 
